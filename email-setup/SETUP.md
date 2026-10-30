@@ -7,7 +7,7 @@ Emails are sent from **** automatically. No password is stored in the website.
 2. Delete the sample code and paste everything from `Code.gs`. Change `TOKEN` to your own secret word.
 3. Select `testMail` at the top, click **Run**, allow the permission (Advanced > Go to project > Allow). A test mail comes to your inbox.
 4. Click **Deploy > New deployment > type: Web app**.
-   - Execute as: **Me (jadid24013@gmail.com)**
+   - Execute as: **Me ()**
    - Who has access: **Anyone**
 5. Click Deploy and copy the **Web app URL** (ends with `/exec`).
 6. Open `js/mailer.js` and set `url:` to that URL and `token:` to the same secret word as step 2.
