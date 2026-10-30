@@ -5,7 +5,7 @@
 var MAIL = {
   url: 'https://script.google.com/macros/s/AKfycbw9jRcGUusj2JwGISUfk1jg0EIMj6aj1YRidV0b4cUANlwm6-TkpZEA3ZJhbVjZzRO-/exec', // <-- paste the Web App URL here (ends with /exec), see email-setup/SETUP.md
   token: 'khalidmbstu', // <-- must be the same as TOKEN inside email-setup/Code.gs
-  from: '',
+  from: 'jadid24013@gmail.com',
 };
 
 // Find the patient's e-mail: it is saved in the appointment, or in the patient record
