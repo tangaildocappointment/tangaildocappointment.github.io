@@ -1,9 +1,9 @@
 # Email setup (one time, about 5 minutes)
 
 The slip is inside the mail and also attached as a PDF.
-Emails are sent from **jadid24013@gmail.com** automatically. No password is stored in the website.
+Emails are sent from **** automatically. No password is stored in the website.
 
-1. Login to Google as `jadid24013@gmail.com`, open https://script.google.com and click **New project**.
+1. Login to Google as ``, open https://script.google.com and click **New project**.
 2. Delete the sample code and paste everything from `Code.gs`. Change `TOKEN` to your own secret word.
 3. Select `testMail` at the top, click **Run**, allow the permission (Advanced > Go to project > Allow). A test mail comes to your inbox.
 4. Click **Deploy > New deployment > type: Web app**.
