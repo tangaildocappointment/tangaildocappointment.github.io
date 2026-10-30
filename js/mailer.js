@@ -1,6 +1,6 @@
 /* ===== MAILER: sends the appointment e-mails to the patient (through Google Apps Script) ===== */
 // How it works: the website sends the e-mail text to a small Google Apps Script web app.
-// That script runs inside the Gmail account jadid24013@gmail.com and sends the e-mail from it.
+// That script runs inside the Gmail account and sends the e-mail from it.
 // So the Gmail password is NEVER written in this website. Setup steps: email-setup/SETUP.md
 var MAIL = {
   url: '', // <-- paste the Web App URL here (ends with /exec), see email-setup/SETUP.md
