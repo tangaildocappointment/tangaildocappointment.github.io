@@ -3,8 +3,8 @@
 // That script runs inside the Gmail account jadid24013@gmail.com and sends the e-mail from it.
 // So the Gmail password is NEVER written in this website. Setup steps: email-setup/SETUP.md
 var MAIL = {
-  url: '', // <-- paste the Web App URL here (ends with /exec), see email-setup/SETUP.md
-  token: '', // <-- must be the same as TOKEN inside email-setup/Code.gs
+  url: 'https://script.google.com/macros/s/AKfycbw9jRcGUusj2JwGISUfk1jg0EIMj6aj1YRidV0b4cUANlwm6-TkpZEA3ZJhbVjZzRO-/exec', // <-- paste the Web App URL here (ends with /exec), see email-setup/SETUP.md
+  token: 'khalidmbstu', // <-- must be the same as TOKEN inside email-setup/Code.gs
   from: '',
 };
 
