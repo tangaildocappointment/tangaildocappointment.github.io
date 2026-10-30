@@ -1,6 +1,6 @@
 // Google Apps Script: sends the e-mail from the Gmail account that owns this script.
 // Create it while logged in as jadid24013@gmail.com (see SETUP.md).
-var TOKEN = 'khalidmbstu'; // must be the same as MAIL.token in js/mailer.js
+var TOKEN = ''; // must be the same as MAIL.token in js/mailer.js
 
 function doPost(e) {
   try {
