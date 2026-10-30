@@ -1,0 +1,708 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Find Your Doctor – Tangail Zila Sadar Hospital &amp; Clinic</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Icons: one drawing for each icon. They are used with <svg class="ic"><use href="#i-NAME"></use></svg> or ic('NAME') in JavaScript -->
+    <svg width="0" height="0" style="position: absolute" aria-hidden="true">
+      <symbol
+        id="i-lock"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <rect x="5" y="11" width="14" height="10" rx="2" />
+        <path d="M8 11V8a4 4 0 0 1 8 0v3" />
+        <circle cx="12" cy="16" r="1" fill="currentColor" />
+      </symbol>
+      <symbol
+        id="i-shield"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z" />
+        <path d="M9 12l2 2 4-4" />
+      </symbol>
+      <symbol
+        id="i-search"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <circle cx="11" cy="11" r="7" />
+        <path d="M20.5 20.5L16 16" />
+      </symbol>
+      <symbol
+        id="i-download"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M12 3v12M7 11l5 5 5-5M4 20h16" />
+      </symbol>
+      <symbol
+        id="i-printer"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M7 9V3h10v6" />
+        <rect x="3" y="9" width="18" height="8" rx="2" />
+        <path d="M7 14h10v7H7z" />
+      </symbol>
+      <symbol
+        id="i-check"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M4 12.5l5 5L20 6.5" />
+      </symbol>
+      <symbol
+        id="i-checkc"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <circle cx="12" cy="12" r="9" />
+        <path d="M8 12.5l3 3 5-6" />
+      </symbol>
+      <symbol
+        id="i-x"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M6 6l12 12M18 6L6 18" />
+      </symbol>
+      <symbol
+        id="i-phone"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path
+          d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"
+        />
+      </symbol>
+      <symbol
+        id="i-calendar"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <rect x="3" y="5" width="18" height="16" rx="2" />
+        <path d="M16 3v4M8 3v4M3 10h18" />
+      </symbol>
+      <symbol
+        id="i-calplus"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <rect x="3" y="5" width="18" height="16" rx="2" />
+        <path d="M16 3v4M8 3v4M3 10h18M12 13v5M9.5 15.5h5" />
+      </symbol>
+      <symbol
+        id="i-user"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <circle cx="12" cy="8" r="4" />
+        <path d="M4 21a8 8 0 0 1 16 0" />
+      </symbol>
+      <symbol
+        id="i-hospital"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M4 21V8l8-5 8 5v13" />
+        <path d="M12 9v6M9 12h6M9 21v-4h6v4" />
+      </symbol>
+      <symbol
+        id="i-steth"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M6 3v6a4 4 0 0 0 8 0V3" />
+        <path d="M10 13v2a5 5 0 0 0 10 0v-2" />
+        <circle cx="20" cy="11" r="2" />
+      </symbol>
+      <symbol
+        id="i-key"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <circle cx="8" cy="15" r="4" />
+        <path d="M11 12l9-9M16 7l3 3" />
+      </symbol>
+      <symbol
+        id="i-save"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M5 3h11l4 4v14H5z" />
+        <path d="M8 3v5h7V3M8 21v-7h8v7" />
+      </symbol>
+      <symbol
+        id="i-folder"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+      </symbol>
+      <symbol
+        id="i-trash"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13M10 11v6M14 11v6" />
+      </symbol>
+      <symbol
+        id="i-logout"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M9 21H5V3h4M16 17l5-5-5-5M21 12H9" />
+      </symbol>
+      <symbol
+        id="i-hourglass"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M6 3h12M6 21h12M7 3v4l5 5-5 5v4M17 3v4l-5 5 5 5v4" />
+      </symbol>
+      <symbol
+        id="i-sheet"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <rect x="4" y="3" width="16" height="18" rx="2" />
+        <path d="M4 9h16M4 15h16M10 3v18" />
+      </symbol>
+      <symbol
+        id="i-pdf"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M6 3h8l5 5v13H6z" />
+        <path d="M14 3v5h5M9 13h6M9 17h6" />
+      </symbol>
+      <symbol
+        id="i-id"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <rect x="3" y="5" width="18" height="14" rx="2" />
+        <circle cx="9" cy="11" r="2" />
+        <path d="M14 10h4M14 14h4M6 16c1-2 5-2 6 0" />
+      </symbol>
+      <symbol
+        id="i-moon"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M21 13A9 9 0 1 1 11 3a7 7 0 0 0 10 10z" />
+      </symbol>
+      <symbol
+        id="i-sun"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <circle cx="12" cy="12" r="4" />
+        <path
+          d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M19 5l-1.5 1.5M6.5 17.5L5 19"
+        />
+      </symbol>
+      <symbol
+        id="i-alert"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M12 3l10 18H2z" />
+        <path d="M12 10v5M12 18v.5" />
+      </symbol>
+      <symbol
+        id="i-chevl"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M15 5l-7 7 7 7" />
+      </symbol>
+      <symbol
+        id="i-chevr"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M9 5l7 7-7 7" />
+      </symbol>
+      <symbol
+        id="i-undo"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M3 8h11a6 6 0 0 1 0 12H8" />
+        <path d="M7 4L3 8l4 4" />
+      </symbol>
+      <symbol
+        id="i-pin"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M12 21s7-6 7-12a7 7 0 0 0-14 0c0 6 7 12 7 12z" />
+        <circle cx="12" cy="9" r="2.5" />
+      </symbol>
+      <symbol
+        id="i-heart"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.9"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M12 21s-8-5.2-8-11a4.5 4.5 0 0 1 8-2.5A4.5 4.5 0 0 1 20 10c0 5.8-8 11-8 11z" />
+        <path d="M3 12h4l2-3 3 6 2-3h7" />
+      </symbol>
+    </svg>
+
+    <!-- PAGE 1: Find Your Doctor (title, filters, doctor cards) -->
+    <header>
+      <button class="tg" id="tg" title="Light / Dark">
+        <svg class="ic"><use href="#i-moon"></use></svg>
+      </button>
+      <button class="btn d top" id="adm">
+        <svg class="ic"><use href="#i-shield"></use></svg> Admin
+      </button>
+      <button class="btn b top2" id="chk">
+        <svg class="ic"><use href="#i-search"></use></svg> Check Appointment
+      </button>
+      <div class="logo">
+        <svg class="ic"><use href="#i-heart"></use></svg>
+      </div>
+      <h3>Welcome !</h3>
+      <h2>Tangail Zila Sadar Hospital &amp; Clinic</h2>
+      <h1>FIND YOUR DOCTOR</h1>
+    </header>
+    <div class="wrap">
+      <div class="filter">
+        <div class="in">
+          <div id="c_fh"></div>
+          <div id="c_fd"></div>
+          <div id="c_fs"></div>
+          <div class="or">--OR--</div>
+          <div id="c_fn"></div>
+          <button class="btn o" id="clr">
+            <svg class="ic"><use href="#i-undo"></use></svg> Clear filters
+          </button>
+        </div>
+      </div>
+      <p class="cnt"><span id="cnt"></span></p>
+      <div class="grid" id="grid"></div>
+    </div>
+
+    <footer class="site-ft">
+      <p>&copy; <span id="yr">2026</span> Tangail Zila Sadar Hospital &amp; Clinic. All rights reserved.</p>
+      <p>
+        Unauthorized copying, reproduction or distribution of this website, its design or its code
+        is prohibited under the Copyright Act, 2000 of Bangladesh.
+      </p>
+      <p>Developed by <b>Md. Khalid Hasan [IT24013]</b> &amp; <b>Alif Ahmed Joy [IT24015]</b></p>
+    </footer>
+
+    <!-- POPUP: doctor profile -->
+    <div class="ov" id="ovp">
+      <div class="md s">
+        <button class="x" data-c="ovp">
+          <svg class="ic"><use href="#i-x"></use></svg>
+        </button>
+        <div id="prof"></div>
+      </div>
+    </div>
+    <!-- ADMIN PANEL: login, password reset, confirm / cancel appointments, Excel, backup -->
+    <div class="ov" id="ova">
+      <div class="md" style="max-width: 1000px">
+        <button class="x" data-c="ova">
+          <svg class="ic"><use href="#i-x"></use></svg>
+        </button>
+        <div id="abody"></div>
+      </div>
+    </div>
+    <!-- POPUP: patient checks status + final serial (Registration No. or mobile) -->
+    <div class="ov" id="ovc">
+      <div class="md" style="max-width: 560px">
+        <button class="x" data-c="ovc">
+          <svg class="ic"><use href="#i-x"></use></svg>
+        </button>
+        <div class="ad">
+          <h2>
+            <svg class="ic"><use href="#i-search"></use></svg> Check my appointment
+          </h2>
+          <p class="inf">Write your Registration No. <b>or</b> the mobile number you used when booking (one is enough).</p>
+          <div class="g2">
+            <div><label>Registration No.</label><input id="cr" placeholder="e.g. R10003" /></div>
+            <div>
+              <label>Mobile number</label><input id="cp" type="tel" placeholder="01XXXXXXXXX" />
+            </div>
+          </div>
+          <button class="btn f" id="cgo" style="margin-top: 10px">
+            <svg class="ic"><use href="#i-search"></use></svg> Check
+          </button>
+          <p class="warn" id="cerr"></p>
+          <div id="cres"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Confirm window used by the admin panel -->
+    <div class="ov" id="cfm">
+      <div class="md s">
+        <h3 id="cq"></h3>
+        <p id="cm"></p>
+        <div class="bar">
+          <button class="btn f" id="cy">
+            <svg class="ic"><use href="#i-check"></use></svg> Yes</button
+          ><button class="btn dng" id="cn">
+            <svg class="ic"><use href="#i-x"></use></svg> No
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- The appointment slip: hidden on screen, only this is printed -->
+    <div id="slip"></div>
+    <!-- PAGE 2: Booking page (1 Choose Specialist, 2 Select Date, 3 Patient Details) -->
+    <div class="ov" id="ovb">
+      <div class="md">
+        <button class="x" data-c="ovb">
+          <svg class="ic"><use href="#i-x"></use></svg>
+        </button>
+        <div class="bg2" id="bg2">
+          <div>
+            <section class="sc">
+              <h3><span class="n">1</span>Choose Specialist</h3>
+              <div class="g2">
+                <div>
+                  <label>Department <i>*</i></label>
+                  <div id="c_bd"></div>
+                </div>
+                <div>
+                  <label>Speciality <i>*</i></label>
+                  <div id="c_bs"></div>
+                </div>
+              </div>
+              <div style="margin-top: 12px">
+                <div>
+                  <label>Doctor <i>*</i></label>
+                  <div id="c_bn"></div>
+                </div>
+              </div>
+              <p class="inf" id="dinf"></p>
+            </section>
+            <section class="sc">
+              <h3><span class="n">2</span>Select Date</h3>
+              <div class="ah">
+                <b
+                  ><svg class="ic"><use href="#i-steth"></use></svg> Appointment</b
+                ><span class="pill">slot status</span>
+              </div>
+              <div class="lg">
+                <span><i style="background: #2f7d5b"></i>Available</span
+                ><span><i style="background: #b4443f"></i>Slot full</span
+                ><span><i style="background: #b9c6d4"></i>Not available</span>
+              </div>
+              <div class="ch">
+                <button type="button" id="pv">
+                  <svg class="ic"><use href="#i-chevl"></use></svg></button
+                ><b id="mt"></b
+                ><button type="button" id="nx">
+                  <svg class="ic"><use href="#i-chevr"></use></svg>
+                </button>
+              </div>
+              <div class="cal" id="cal"></div>
+              <div class="sd" id="sd">
+                <span
+                  ><svg class="ic"><use href="#i-pin"></use></svg> <span id="sdt"></span></span
+                ><button
+                  type="button"
+                  class="btn b"
+                  id="clrd"
+                  style="padding: 4px 12px; font-size: 12px"
+                >
+                  <svg class="ic"><use href="#i-undo"></use></svg> clear
+                </button>
+              </div>
+              <div class="okm" id="okm" hidden>Schedule date selected successfully.</div>
+            </section>
+          </div>
+          <form id="fm" onsubmit="return false;">
+            <section class="sc">
+              <h3><span class="n">3</span>Patient Details</h3>
+              <div class="dupb" id="dupb" hidden></div>
+              <div class="seg">
+                <button type="button" class="on" data-t="n">New Patient</button
+                ><button type="button" data-t="e">Existing Patient</button>
+              </div>
+              <div id="pn">
+                <div class="rg">
+                  <label class="rc">NID<input type="radio" name="it" value="NID" checked /></label
+                  ><label class="rc"
+                    >Birth Reg.<input type="radio" name="it" value="Birth Registration" /></label
+                  ><label class="rc"
+                    >Tika Card<input type="radio" name="it" value="Tika Card" /></label
+                  ><label class="rc"
+                    >Passport<input type="radio" name="it" value="Passport"
+                  /></label>
+                </div>
+                <div class="g2">
+                  <div>
+                    <label><span id="itl">NID</span> Number <i>*</i></label
+                    ><input id="idn" placeholder="Enter ID Number" />
+                  </div>
+                  <div>
+                    <label>Phone Number <i>*</i></label
+                    ><input id="ph" placeholder="017XXXXXXXX" type="tel" />
+                  </div>
+                </div>
+                <p class="warn" id="nb">N.B- Please bring your NID Card for consultation.</p>
+              </div>
+              <div id="pe" hidden>
+                <div class="g2">
+                  <div>
+                    <label>Registration Number <i>*</i></label>
+                    <div style="display: flex">
+                      <input
+                        id="rg"
+                        placeholder="Registration No. + Enter"
+                        style="border-radius: 8px 0 0 8px"
+                      /><button
+                        type="button"
+                        id="find"
+                        class="btn f"
+                        style="border-radius: 0 8px 8px 0; padding: 0 16px; font-size: 12px"
+                      >
+                        Find
+                      </button>
+                    </div>
+                  </div>
+                  <div>
+                    <label>Phone Number</label
+                    ><input id="ph2" placeholder="Verified Phone" disabled />
+                  </div>
+                </div>
+              </div>
+              <div class="pd" style="margin-top: 12px">
+                <div class="g2">
+                  <div>
+                    <label>Full Name <i>*</i></label
+                    ><input id="nm" placeholder="Full Name" />
+                  </div>
+                  <div>
+                    <label>Date of Birth <i>*</i></label
+                    ><input id="dob" placeholder="" type="date" />
+                  </div>
+                  <div>
+                    <label>Gender <i>*</i></label>
+                    <div id="c_gn"></div>
+                  </div>
+                  <div>
+                    <label>Email</label
+                    ><input id="em" placeholder="email@example.com" type="email" />
+                  </div>
+                </div>
+                <details class="acc" open>
+                  <summary>Additional Information</summary>
+                  <div class="g2">
+                    <div>
+                      <label>Father's Name <i>*</i></label
+                      ><input id="fa" placeholder="Father's Name" />
+                    </div>
+                    <div>
+                      <label>Mother's Name <i>*</i></label
+                      ><input id="mo" placeholder="Mother's Name" />
+                    </div>
+                    <div>
+                      <label>Marital Status <i>*</i></label>
+                      <div id="c_ms"></div>
+                    </div>
+                    <div><label>Spouse Name</label><input id="sp" placeholder="Spouse Name" /></div>
+                    <div>
+                      <label>Blood Group</label>
+                      <div id="c_bl"></div>
+                    </div>
+                    <div>
+                      <label>Occupation</label>
+                      <div id="c_oc"></div>
+                    </div>
+                    <div>
+                      <label>Religion <i>*</i></label>
+                      <div id="c_rl"></div>
+                    </div>
+                    <div>
+                      <label>Nationality</label><input id="na" placeholder="" value="Bangladeshi" />
+                    </div>
+                  </div>
+                </details>
+                <label>Address Line</label><input id="ad" placeholder="Street Address, House No." />
+                <div class="g4">
+                  <div>
+                    <label>Division <i>*</i></label>
+                    <div id="c_dv"></div>
+                  </div>
+                  <div>
+                    <label>District <i>*</i></label>
+                    <div id="c_dis"></div>
+                  </div>
+                  <div>
+                    <label>Thana <i>*</i></label>
+                    <div id="c_th"></div>
+                  </div>
+                  <div>
+                    <label>Ward/Union <i>*</i></label
+                    ><input id="wd" placeholder="Ward / Union" />
+                  </div>
+                </div>
+              </div>
+            </section>
+            <button type="button" id="sub" disabled>
+              <svg class="ic"><use href="#i-check"></use></svg> Confirm Appointment
+            </button>
+            <p class="warn" id="er"></p>
+          </form>
+        </div>
+        <div id="done"></div>
+      </div>
+    </div>
+
+    <!-- SheetJS: creates the real .xlsx file (loaded from the internet) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <!-- jsPDF: creates the PDF of the appointment slip (loaded from the internet) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <!-- Our code. The ORDER matters: data and helpers first, pages next, main.js last -->
+    <script src="js/data.js"></script>
+    <script src="js/geo.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script src="js/finder.js"></script>
+    <script src="js/slip.js"></script>
+    <script src="js/mailer.js"></script>
+    <script src="js/booking.js"></script>
+    <script src="js/appointments.js"></script>
+    <script src="js/admin.js"></script>
+    <script src="js/status.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
